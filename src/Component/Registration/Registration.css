@@ -1,0 +1,13 @@
+.registration_div{
+    text-align: center;
+}
+.registration_form{
+    margin: 0 auto;
+    background-color: hsl(38, 82%, 94%);
+    width: 500px;
+}
+
+.registration_form input{
+    margin: 15px;
+    width: 300px;
+}

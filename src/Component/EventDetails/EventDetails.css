@@ -1,0 +1,28 @@
+.event_card{
+    height: 375px;
+    position: relative;
+}
+
+.event_title{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFBD3E;
+    color: white;
+}
+
+.event_card:nth-child(2n+2) .event_title{
+    background-color:#FF7044;
+    }
+    .event_card:nth-child(3n+3) .event_title{
+        background-color:#3F90FC;
+    }
+    .event_card:nth-child(4n+4) .event_title{
+        background-color:#421FCF;
+    }
